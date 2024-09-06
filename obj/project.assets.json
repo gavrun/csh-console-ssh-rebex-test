@@ -1,0 +1,333 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Rebex.Common/7.0.8943": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Rebex.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Rebex.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Rebex.FileTransfer/7.0.8943": {
+        "type": "package",
+        "dependencies": {
+          "Rebex.Common": "[7.0.8943]",
+          "Rebex.Ftp": "[7.0.8943]",
+          "Rebex.Networking": "[7.0.8943]",
+          "Rebex.Sftp": "[7.0.8943]"
+        },
+        "compile": {
+          "lib/net8.0/Rebex.FileTransfer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Rebex.FileTransfer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Rebex.Ftp/7.0.8943": {
+        "type": "package",
+        "dependencies": {
+          "Rebex.Common": "[7.0.8943]",
+          "Rebex.Networking": "[7.0.8943]"
+        },
+        "compile": {
+          "lib/net8.0/Rebex.Ftp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Rebex.Ftp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Rebex.Networking/7.0.8943": {
+        "type": "package",
+        "dependencies": {
+          "Rebex.Common": "[7.0.8943]"
+        },
+        "compile": {
+          "lib/net8.0/Rebex.Networking.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Rebex.Networking.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Rebex.Sftp/7.0.8943": {
+        "type": "package",
+        "dependencies": {
+          "Rebex.Common": "[7.0.8943]",
+          "Rebex.Networking": "[7.0.8943]"
+        },
+        "compile": {
+          "lib/net8.0/Rebex.Sftp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Rebex.Sftp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rebex.Common/7.0.8943": {
+      "sha512": "zcLnos965YolgNteGCYUBKcaulqD9sjhSPskA67fIO2vtWl2eMGcjL7EnbDxAb4AAktAyi9vsGKz7ZEUVQv1Mg==",
+      "type": "package",
+      "path": "rebex.common/7.0.8943",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "images/Rebex.Common.png",
+        "lib/net35/Rebex.Common.dll",
+        "lib/net35/Rebex.Common.xml",
+        "lib/net40/Rebex.Common.dll",
+        "lib/net40/Rebex.Common.xml",
+        "lib/net46/Rebex.Common.dll",
+        "lib/net46/Rebex.Common.xml",
+        "lib/net5.0/Rebex.Common.dll",
+        "lib/net5.0/Rebex.Common.xml",
+        "lib/net6.0/Rebex.Common.dll",
+        "lib/net6.0/Rebex.Common.xml",
+        "lib/net7.0/Rebex.Common.dll",
+        "lib/net7.0/Rebex.Common.xml",
+        "lib/net8.0/Rebex.Common.dll",
+        "lib/net8.0/Rebex.Common.xml",
+        "lib/netcoreapp3.1/Rebex.Common.dll",
+        "lib/netcoreapp3.1/Rebex.Common.xml",
+        "lib/netstandard2.0/Rebex.Common.dll",
+        "lib/netstandard2.0/Rebex.Common.xml",
+        "lib/netstandard2.1/Rebex.Common.dll",
+        "lib/netstandard2.1/Rebex.Common.xml",
+        "license.txt",
+        "rebex.common.7.0.8943.nupkg.sha512",
+        "rebex.common.nuspec"
+      ]
+    },
+    "Rebex.FileTransfer/7.0.8943": {
+      "sha512": "88EuIzsVWRnJqN1RbZZEmfN7PIauqwfhOfaw1ZeMTb3WPZCk0VjWS8PdLiFgER2/lUaRIZFk3y/5RyRSVQGVwg==",
+      "type": "package",
+      "path": "rebex.filetransfer/7.0.8943",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "images/Rebex.FileTransfer.png",
+        "lib/net35/Rebex.FileTransfer.dll",
+        "lib/net35/Rebex.FileTransfer.xml",
+        "lib/net40/Rebex.FileTransfer.dll",
+        "lib/net40/Rebex.FileTransfer.xml",
+        "lib/net46/Rebex.FileTransfer.dll",
+        "lib/net46/Rebex.FileTransfer.xml",
+        "lib/net5.0/Rebex.FileTransfer.dll",
+        "lib/net5.0/Rebex.FileTransfer.xml",
+        "lib/net6.0/Rebex.FileTransfer.dll",
+        "lib/net6.0/Rebex.FileTransfer.xml",
+        "lib/net7.0/Rebex.FileTransfer.dll",
+        "lib/net7.0/Rebex.FileTransfer.xml",
+        "lib/net8.0/Rebex.FileTransfer.dll",
+        "lib/net8.0/Rebex.FileTransfer.xml",
+        "lib/netcoreapp3.1/Rebex.FileTransfer.dll",
+        "lib/netcoreapp3.1/Rebex.FileTransfer.xml",
+        "lib/netstandard2.0/Rebex.FileTransfer.dll",
+        "lib/netstandard2.0/Rebex.FileTransfer.xml",
+        "lib/netstandard2.1/Rebex.FileTransfer.dll",
+        "lib/netstandard2.1/Rebex.FileTransfer.xml",
+        "license.txt",
+        "rebex.filetransfer.7.0.8943.nupkg.sha512",
+        "rebex.filetransfer.nuspec"
+      ]
+    },
+    "Rebex.Ftp/7.0.8943": {
+      "sha512": "NGr6KfeRZtyYoXU4Cw79w4M+/FQZY2AuG81pvIGXwBT1qaHnWWIiHkr/AzPs/sU8Yme6zYNIRrfcdAi9bOa8JQ==",
+      "type": "package",
+      "path": "rebex.ftp/7.0.8943",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "images/Rebex.Ftp.png",
+        "lib/net35/Rebex.Ftp.dll",
+        "lib/net35/Rebex.Ftp.xml",
+        "lib/net40/Rebex.Ftp.dll",
+        "lib/net40/Rebex.Ftp.xml",
+        "lib/net46/Rebex.Ftp.dll",
+        "lib/net46/Rebex.Ftp.xml",
+        "lib/net5.0/Rebex.Ftp.dll",
+        "lib/net5.0/Rebex.Ftp.xml",
+        "lib/net6.0/Rebex.Ftp.dll",
+        "lib/net6.0/Rebex.Ftp.xml",
+        "lib/net7.0/Rebex.Ftp.dll",
+        "lib/net7.0/Rebex.Ftp.xml",
+        "lib/net8.0/Rebex.Ftp.dll",
+        "lib/net8.0/Rebex.Ftp.xml",
+        "lib/netcoreapp3.1/Rebex.Ftp.dll",
+        "lib/netcoreapp3.1/Rebex.Ftp.xml",
+        "lib/netstandard2.0/Rebex.Ftp.dll",
+        "lib/netstandard2.0/Rebex.Ftp.xml",
+        "lib/netstandard2.1/Rebex.Ftp.dll",
+        "lib/netstandard2.1/Rebex.Ftp.xml",
+        "license.txt",
+        "rebex.ftp.7.0.8943.nupkg.sha512",
+        "rebex.ftp.nuspec"
+      ]
+    },
+    "Rebex.Networking/7.0.8943": {
+      "sha512": "rbdDaRDQ1wbxrJsYMrWJBCocq3E4WSu5LCifaMkYZgYM2D2dWc7uNErCCK6lcIwmh/DwqQEX4DpisdTl1oBiTQ==",
+      "type": "package",
+      "path": "rebex.networking/7.0.8943",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "images/Rebex.Networking.png",
+        "lib/net35/Rebex.Networking.dll",
+        "lib/net35/Rebex.Networking.xml",
+        "lib/net40/Rebex.Networking.dll",
+        "lib/net40/Rebex.Networking.xml",
+        "lib/net46/Rebex.Networking.dll",
+        "lib/net46/Rebex.Networking.xml",
+        "lib/net5.0/Rebex.Networking.dll",
+        "lib/net5.0/Rebex.Networking.xml",
+        "lib/net6.0/Rebex.Networking.dll",
+        "lib/net6.0/Rebex.Networking.xml",
+        "lib/net7.0/Rebex.Networking.dll",
+        "lib/net7.0/Rebex.Networking.xml",
+        "lib/net8.0/Rebex.Networking.dll",
+        "lib/net8.0/Rebex.Networking.xml",
+        "lib/netcoreapp3.1/Rebex.Networking.dll",
+        "lib/netcoreapp3.1/Rebex.Networking.xml",
+        "lib/netstandard2.0/Rebex.Networking.dll",
+        "lib/netstandard2.0/Rebex.Networking.xml",
+        "lib/netstandard2.1/Rebex.Networking.dll",
+        "lib/netstandard2.1/Rebex.Networking.xml",
+        "license.txt",
+        "rebex.networking.7.0.8943.nupkg.sha512",
+        "rebex.networking.nuspec"
+      ]
+    },
+    "Rebex.Sftp/7.0.8943": {
+      "sha512": "614qTl00f1h2dD88++W+lTtroZgIRLWCvjDwmTWgiMiOYH4QN64xlsl4Bx3sAq596hYBgU53mMj8NmbyNFI3Tw==",
+      "type": "package",
+      "path": "rebex.sftp/7.0.8943",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "images/Rebex.Sftp.png",
+        "lib/net35/Rebex.Sftp.dll",
+        "lib/net35/Rebex.Sftp.xml",
+        "lib/net40/Rebex.Sftp.dll",
+        "lib/net40/Rebex.Sftp.xml",
+        "lib/net46/Rebex.Sftp.dll",
+        "lib/net46/Rebex.Sftp.xml",
+        "lib/net5.0/Rebex.Sftp.dll",
+        "lib/net5.0/Rebex.Sftp.xml",
+        "lib/net6.0/Rebex.Sftp.dll",
+        "lib/net6.0/Rebex.Sftp.xml",
+        "lib/net7.0/Rebex.Sftp.dll",
+        "lib/net7.0/Rebex.Sftp.xml",
+        "lib/net8.0/Rebex.Sftp.dll",
+        "lib/net8.0/Rebex.Sftp.xml",
+        "lib/netcoreapp3.1/Rebex.Sftp.dll",
+        "lib/netcoreapp3.1/Rebex.Sftp.xml",
+        "lib/netstandard2.0/Rebex.Sftp.dll",
+        "lib/netstandard2.0/Rebex.Sftp.xml",
+        "lib/netstandard2.1/Rebex.Sftp.dll",
+        "lib/netstandard2.1/Rebex.Sftp.xml",
+        "license.txt",
+        "rebex.sftp.7.0.8943.nupkg.sha512",
+        "rebex.sftp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Rebex.FileTransfer >= 7.0.8943"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\agavrunov\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\console-test-ssh\\console-test-ssh.csproj",
+      "projectName": "console-test-ssh",
+      "projectPath": "D:\\console-test-ssh\\console-test-ssh.csproj",
+      "packagesPath": "C:\\Users\\agavrunov\\.nuget\\packages\\",
+      "outputPath": "D:\\console-test-ssh\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\agavrunov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Rebex.FileTransfer": {
+            "target": "Package",
+            "version": "[7.0.8943, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
