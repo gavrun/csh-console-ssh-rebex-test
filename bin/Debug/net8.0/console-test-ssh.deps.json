@@ -1,0 +1,118 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "console-test-ssh/1.0.0": {
+        "dependencies": {
+          "Rebex.FileTransfer": "7.0.8943"
+        },
+        "runtime": {
+          "console-test-ssh.dll": {}
+        }
+      },
+      "Rebex.Common/7.0.8943": {
+        "runtime": {
+          "lib/net8.0/Rebex.Common.dll": {
+            "assemblyVersion": "7.0.8943.0",
+            "fileVersion": "7.0.8943.0"
+          }
+        }
+      },
+      "Rebex.FileTransfer/7.0.8943": {
+        "dependencies": {
+          "Rebex.Common": "7.0.8943",
+          "Rebex.Ftp": "7.0.8943",
+          "Rebex.Networking": "7.0.8943",
+          "Rebex.Sftp": "7.0.8943"
+        },
+        "runtime": {
+          "lib/net8.0/Rebex.FileTransfer.dll": {
+            "assemblyVersion": "7.0.8943.0",
+            "fileVersion": "7.0.8943.0"
+          }
+        }
+      },
+      "Rebex.Ftp/7.0.8943": {
+        "dependencies": {
+          "Rebex.Common": "7.0.8943",
+          "Rebex.Networking": "7.0.8943"
+        },
+        "runtime": {
+          "lib/net8.0/Rebex.Ftp.dll": {
+            "assemblyVersion": "7.0.8943.0",
+            "fileVersion": "7.0.8943.0"
+          }
+        }
+      },
+      "Rebex.Networking/7.0.8943": {
+        "dependencies": {
+          "Rebex.Common": "7.0.8943"
+        },
+        "runtime": {
+          "lib/net8.0/Rebex.Networking.dll": {
+            "assemblyVersion": "7.0.8943.0",
+            "fileVersion": "7.0.8943.0"
+          }
+        }
+      },
+      "Rebex.Sftp/7.0.8943": {
+        "dependencies": {
+          "Rebex.Common": "7.0.8943",
+          "Rebex.Networking": "7.0.8943"
+        },
+        "runtime": {
+          "lib/net8.0/Rebex.Sftp.dll": {
+            "assemblyVersion": "7.0.8943.0",
+            "fileVersion": "7.0.8943.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "console-test-ssh/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rebex.Common/7.0.8943": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zcLnos965YolgNteGCYUBKcaulqD9sjhSPskA67fIO2vtWl2eMGcjL7EnbDxAb4AAktAyi9vsGKz7ZEUVQv1Mg==",
+      "path": "rebex.common/7.0.8943",
+      "hashPath": "rebex.common.7.0.8943.nupkg.sha512"
+    },
+    "Rebex.FileTransfer/7.0.8943": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-88EuIzsVWRnJqN1RbZZEmfN7PIauqwfhOfaw1ZeMTb3WPZCk0VjWS8PdLiFgER2/lUaRIZFk3y/5RyRSVQGVwg==",
+      "path": "rebex.filetransfer/7.0.8943",
+      "hashPath": "rebex.filetransfer.7.0.8943.nupkg.sha512"
+    },
+    "Rebex.Ftp/7.0.8943": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NGr6KfeRZtyYoXU4Cw79w4M+/FQZY2AuG81pvIGXwBT1qaHnWWIiHkr/AzPs/sU8Yme6zYNIRrfcdAi9bOa8JQ==",
+      "path": "rebex.ftp/7.0.8943",
+      "hashPath": "rebex.ftp.7.0.8943.nupkg.sha512"
+    },
+    "Rebex.Networking/7.0.8943": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rbdDaRDQ1wbxrJsYMrWJBCocq3E4WSu5LCifaMkYZgYM2D2dWc7uNErCCK6lcIwmh/DwqQEX4DpisdTl1oBiTQ==",
+      "path": "rebex.networking/7.0.8943",
+      "hashPath": "rebex.networking.7.0.8943.nupkg.sha512"
+    },
+    "Rebex.Sftp/7.0.8943": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-614qTl00f1h2dD88++W+lTtroZgIRLWCvjDwmTWgiMiOYH4QN64xlsl4Bx3sAq596hYBgU53mMj8NmbyNFI3Tw==",
+      "path": "rebex.sftp/7.0.8943",
+      "hashPath": "rebex.sftp.7.0.8943.nupkg.sha512"
+    }
+  }
+}
