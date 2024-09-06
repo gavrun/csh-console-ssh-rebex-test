@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uhc8RHjd9rY=",
+  "dgSpecHash": "sjk1shO+jQU=",
   "success": true,
-  "projectFilePath": "d:\\console-test-ssh\\console-test-ssh.csproj",
+  "projectFilePath": "D:\\console-test-ssh\\console-test-ssh.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\agavrunov\\.nuget\\packages\\rebex.common\\7.0.8943\\rebex.common.7.0.8943.nupkg.sha512",
     "C:\\Users\\agavrunov\\.nuget\\packages\\rebex.filetransfer\\7.0.8943\\rebex.filetransfer.7.0.8943.nupkg.sha512",

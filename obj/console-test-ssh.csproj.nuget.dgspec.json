@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\console-test-ssh\\console-test-ssh.csproj": {}
+    "D:\\console-test-ssh\\console-test-ssh.csproj": {}
   },
   "projects": {
-    "d:\\console-test-ssh\\console-test-ssh.csproj": {
+    "D:\\console-test-ssh\\console-test-ssh.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\console-test-ssh\\console-test-ssh.csproj",
+        "projectUniqueName": "D:\\console-test-ssh\\console-test-ssh.csproj",
         "projectName": "console-test-ssh",
-        "projectPath": "d:\\console-test-ssh\\console-test-ssh.csproj",
+        "projectPath": "D:\\console-test-ssh\\console-test-ssh.csproj",
         "packagesPath": "C:\\Users\\agavrunov\\.nuget\\packages\\",
-        "outputPath": "d:\\console-test-ssh\\obj\\",
+        "outputPath": "D:\\console-test-ssh\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\agavrunov\\AppData\\Roaming\\NuGet\\NuGet.Config"

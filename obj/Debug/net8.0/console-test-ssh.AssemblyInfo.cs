@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("console-test-ssh")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a72aba3539f0f869c14403d77c06871fec7643fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+935a25b4ca4bfb34275064aa771a361533f0cc77")]
 [assembly: System.Reflection.AssemblyProductAttribute("console-test-ssh")]
 [assembly: System.Reflection.AssemblyTitleAttribute("console-test-ssh")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
