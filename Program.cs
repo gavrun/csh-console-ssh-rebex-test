@@ -6,6 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
+    Rebex.Licensing.Key = "==AtSq7tp6rZ/lx+I+ucuxMbKpj1cXScxPQ/5Wx/9K8c4c==";
     Sftp ssh = new Sftp();
         try
         {
